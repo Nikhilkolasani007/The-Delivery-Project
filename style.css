@@ -1,0 +1,98 @@
+.point{
+    cursor: pointer;
+    background-color: wheat;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    margin-right: 175px; /* Adjust this value as needed */
+    float: left;
+}
+
+.logo:hover {
+    opacity: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Adjust the gap between menu items as needed */
+}
+
+.menu li {
+    list-style: none;
+}
+
+.button1 {
+    background-color: wheat;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-color: black;
+    border-radius: 1%; /* Changed from border: 50% to border-radius */
+    padding: 25px;
+    font-size: large;
+    border-width: 1px;
+    cursor: pointer;
+    border-style: solid;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in 0.2s;
+    box-shadow: 9px 5px 10px purple;
+    border-style: solid;
+}
+.center_position{
+    margin: 0;
+    margin-bottom: 0px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Adjustment1 {
+    font-size: 50px; /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif; /* Add the desired font family */
+    font-weight: bold;
+}
+.Adjustment1:hover {
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition:ease-in 0.8s;
+    border-radius: 10px;
+    box-shadow: 9px 5px 10px purple;
+}
+.center_position2{
+    margin: 0;
+    height: 0.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Adjustment2 {
+    font-size: 50px; /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif; /* Add the desired font family */
+    font-weight: bold;
+}
+.Adjustment2:hover {
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition:ease-in 0.8s;
+    border-radius: 10px;
+    box-shadow: 9px 5px 10px purple;
+}
